@@ -31,7 +31,7 @@ namespace MetroWaitForm
             using (var waitForm = new frmWaitForm(Save))
             {
                 waitForm.ShowDialog(this);
-                MessageBox.Show("", "");
+                MetroFramework.MetroMessageBox.Show(this, "Message", "Titel", MessageBoxButtons.OK, MessageBoxIcon.Information, 100);
             }
         }
     }
