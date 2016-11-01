@@ -33,18 +33,20 @@
             // 
             // metroProgressSpinner1
             // 
-            this.metroProgressSpinner1.Location = new System.Drawing.Point(48, 63);
+            this.metroProgressSpinner1.Location = new System.Drawing.Point(68, 63);
             this.metroProgressSpinner1.Maximum = 100;
             this.metroProgressSpinner1.Name = "metroProgressSpinner1";
-            this.metroProgressSpinner1.Size = new System.Drawing.Size(197, 146);
+            this.metroProgressSpinner1.Size = new System.Drawing.Size(39, 39);
+            this.metroProgressSpinner1.Speed = 2F;
             this.metroProgressSpinner1.TabIndex = 0;
+            this.metroProgressSpinner1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroProgressSpinner1.UseSelectable = true;
             // 
             // frmWaitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 223);
+            this.ClientSize = new System.Drawing.Size(184, 121);
             this.Controls.Add(this.metroProgressSpinner1);
             this.Name = "frmWaitForm";
             this.Text = "Processing";
